@@ -1,15 +1,43 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-}
+ 
+ 
 
+  
+
+}
+.herbs{
+  display: flex;
+  align-items: center;
+}
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto;
+  gap: 52px;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+  
+
+}
+.text{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 52px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  align-self: center; 
+  justify-content: center;
+  gap: 32px ;
+  display: flex ;
+
+
 }
 
 /* do not edit this footer */
